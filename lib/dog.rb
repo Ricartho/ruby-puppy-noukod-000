@@ -12,4 +12,8 @@ class Dog
       puts el.name
     end 
   end 
+  
+  def self.clear_all
+    @@all.clear 
+  end 
 end 
